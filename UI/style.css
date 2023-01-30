@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    box-shadow: 0px 20px 40px -15px rgb(46 44 63 / 20%);
+    height: 80px;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+.nav {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0px auto;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    height: 49px;
+    margin-right: 30px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.location-div {
+    margin-right: 15px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.other {
+    border-bottom: 2px solid orange;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+
+.other:hover {
+    color: orange;
+    border-bottom: 2px solid;
+}
+
+.loction {
+    font-weight: 300;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: grey;
+}
+
+.arrow-down-logo {
+    margin-left: 5px;
+    color: orange;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.item li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 35px;
+}
+
+.nav-item-offer .new {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    bottom: 11px;
+    background-color: rgb(255, 98, 0);
+    padding: 3px 5px;
+    letter-spacing: 1px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 4px;
+
+}
+
+.right .item .nav-item {
+    display: flex;
+    padding: 20px;
+    height: 30px;
+    cursor: pointer;
+    color: grey;
+    margin-bottom: 20px 0;
+}
+
+.right .item .nav-item .fa-cart-plus {
+    color: green;
+}
+
+.right .item .nav-item ._1GTCc {
+    color: red;
+}
+
+.content-section .restaurants .item-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    border-bottom: 0.5px solid grey;
+    margin: 0 120px;
+}
+
+.item-bar .restaurants-no {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 35px;
+    height: 30px;
+    margin-right: 80px;
+}
+
+.restaurants .item-bar .filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding-right: 30px;
+    font-weight: 200;
+    color: grey;
+}
+
+.filters .filters-icon:hover {
+    color: orange;
+    font-weight: 400px;
+}
+
+.restaurant-lists .container .item-bar {
+    padding: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.place-name-div .name-restaurant {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.place-name-div .food-item {
+    font-size: 14px;
+}
+
+.info-div .rating {
+    font-size: 11px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 14px;
+}
+
+.rating .rating-status {
+    position: relative;
+    right: 17px;
+}
+
+.info-div .rating .icon-star {
+    padding-right: 19px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: rgb(255, 98, 0);
+    padding: 3px 5px;
+    letter-spacing: 1px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 4px;
+}
+
+.list-item .offer-div {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: grey 1px solid;
+    opacity: 10px;
+}
+
+.quick-view {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-link:hover .quick-view{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    cursor: pointer;
+    color: grey;
+}

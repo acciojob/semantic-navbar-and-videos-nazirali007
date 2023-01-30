@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background: #F5F5F5;
+}
+
+.main-container .sidebar {
+    /* background:#FFFFFF;
+    color:#848385
+    width: 300px;
+    max-width: 300px;
+    min-height:100vh;
+    height:100%; 
+    position: absolute;*/
+    width: 240px;
+    height: 2666px;
+    background: #FFFFFF;
+}
+
+.main-container .sidebar ul li:hover {
+    background: linear-gradient(90deg, #44369F 0%, #7920A2 100%);
+
+}
+
+.main-container .sidebar ul {
+    list-style: none;
+}
+
+/* .main-container.dashboard{
+    background:  #1E293B;
+    color: #E2E8F0;
+    list-style: none;
+} */
+.pages {
+    font-size: 14px;
+    color: grey;
+    padding: 15px;
+    padding-top: 30px;
+    font-weight: 500;
+    padding-left: 35px;
+
+}
+
+.dashboard-div a {
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.sgt-dashboard ul li {
+    padding: 5px;
+    position: relative;
+    right: 10px;
+
+
+}
+
+.main-container .sidebar ul li {
+
+    padding: 7px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.sgt-div {
+    padding: 15px;
+    padding-left: 27px;
+}
+
+.dashboard-div {
+    position: relative;
+    right: 21px;
+}
+
+.dashboard-more li:first-child {
+    font-size: 12px;
+    color: grey;
+}
+
+.main-container {
+    display: flex;
+    /* grid-template-columns: 24% 75%;  */
+    /* justify-content: start; */
+}
+
+.content-section {
+    width: 100%;
+    position: relative;
+}
+
+/* span.bell-icon {
+    position: relative;
+    right: 27px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: #1E293B 1px solid;
+} */
+.navbar .notification .bell-icon {
+    position: relative;
+    right: 27px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end !important;
+    background: linear-gradient(90.04deg, #46349F -0.59%, #7521A1 100.81%);
+    height: 330px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding-right: 15px;
+    position: relative;
+    bottom: 130px;
+}
+
+/* .navbar ul li{
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    border: 1px solid red;
+} */
+
+.navbar ul li .notification {
+    width: fit-content;
+}
+
+.navbar ul li {
+    padding-right: 10px;
+    color: #FFFFFF;
+
+}
+
+.content-section .navbar .navbar-heading {
+    position: absolute;
+    width: 450px;
+    height: 68px;
+    left: 50px;
+    top: 120px;
+    color: #FFFFFF;
+
+}
+
+.content-section .navbar .button {
+    /* background: #475569; */
+
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 1px 2px rgba(15, 23, 42, 0.08);
+    border-radius: 4px;
+    outline-style: none;
+    position: relative;
+    left: 311px;
+    bottom: 15px;
+}
+
+.content-section .navbar .button button {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    /* padding: 12px; */
+    padding: 5px 30px;
+}
+
+.element-section .element2 .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.element-section .element3 .heading{
+    display: flex;
+    justify-content: space-between;
+} */
+.content-section .element-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* gap: 1rem; */
+    gap:3px;
+}
+.content-section .main-element{
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.content-section .main-element .element-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-section .element-section .element {
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 10px 15px -3px rgba(15, 23, 42, 0.08);
+    border-radius: 2px;
+}
+
+.content-section .main-element .element-section .element-wrap1{
+    width: 32%;
+}
+.main-element .element-section .heading{
+    display: flex; 
+    justify-content: space-between;
+}

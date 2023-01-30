@@ -1,0 +1,104 @@
+* , body{
+margin: 0;
+padding: 0;
+
+}
+
+.nav-item{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.maincontainer{
+    display:flex
+    
+}
+/* nav{
+    position:relative;
+    top:0;
+    bottom:0;
+    height: 100px;
+    left: 0;
+    background:white;
+    width: 300;
+    border-right: 1px solid red;
+
+} */
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+
+}
+.logo img{
+    width: 45;
+    height: 45;
+    border-radius: 50%;
+
+}
+.logo span{
+    font-weight:bold;
+    padding-left: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+a{
+ position: relative;
+ color: rgb(85,80,80);
+ font-size: 20px;
+
+}
+.logo img{
+    width: 100px;
+}
+.nav-item logout{
+    padding: 20px;
+    position: absolute; 
+    bottom: 5px;
+}
+.Main{
+    position: absolute;
+    left: 214px;
+    top: 20px;
+    justify-content: space-between;
+}
+.main top{
+    position: absolute;
+    left: 214;
+    top: 30px;
+    right:0px
+}
+.main top ,h1{
+    color: white;
+    justify-content: space-between;
+    position: absolute;
+    left: 215px;
+    top: 40px;
+
+
+}
+.MainContainer{
+    display: flex;
+
+}
+.main top ,p{
+    justify-content: space-between;
+    position: absolute;
+    left: 214px;
+    top: 100px;
+    right: 400px;
+}
+.navbar .home:hover{
+    color: blue;
+}
